@@ -1,0 +1,7 @@
+PyQt5==5.x.x
+SQLAlchemy==1.x.x
+Psycopg2==2.x.x
+PuLP==2.x
+numpy==1.x.x
+pandas==1.x.x
+requests==2.x.x
