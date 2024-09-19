@@ -1,10 +1,10 @@
-# eduscheduler/gui/main_window.py
+# courseroute/gui/main_window.py
 
 from PyQt5.QtWidgets import QMainWindow, QMessageBox
-from eduscheduler.gui.ui.main_window_ui import Ui_MainWindow
-from eduscheduler.database.db_manager import create_session
-from eduscheduler.algorithms.ilp_scheduler import generate_schedule_ilp
-from eduscheduler.algorithms.genetic_scheduler import generate_schedule_genetic
+from courseroute.gui.ui.main_window_ui import Ui_MainWindow
+from courseroute.database.db_manager import create_session
+from courseroute.algorithms.ilp_scheduler import generate_schedule_ilp
+from courseroute.algorithms.genetic_scheduler import generate_schedule_genetic
 
 class MainWindow(QMainWindow):
     def __init__(self):
