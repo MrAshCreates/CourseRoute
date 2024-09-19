@@ -1,4 +1,4 @@
-# eduscheduler/integrations/schoology_api.py
+# courseroute/integrations/schoology_api.py
 
 import requests
 
