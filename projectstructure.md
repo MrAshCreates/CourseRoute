@@ -12,7 +12,7 @@ CourseRoute/
 ├── .gitignore
 ├── docs/
 │   └── user_manual.md
-├── CourseRouteApp/
+├── courseroute/
 │   ├── __init__.py
 │   ├── algorithms/
 │   │   ├── __init__.py
