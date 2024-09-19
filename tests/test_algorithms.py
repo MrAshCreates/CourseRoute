@@ -1,9 +1,9 @@
 # tests/test_algorithms.py
 
 import unittest
-from eduscheduler.algorithms.ilp_scheduler import generate_schedule_ilp
-from eduscheduler.algorithms.genetic_scheduler import generate_schedule_genetic
-from eduscheduler.database.db_manager import create_session
+from courseroute.algorithms.ilp_scheduler import generate_schedule_ilp
+from courseroute.algorithms.genetic_scheduler import generate_schedule_genetic
+from courseroute.database.db_manager import create_session
 
 class TestSchedulingAlgorithms(unittest.TestCase):
     def setUp(self):
