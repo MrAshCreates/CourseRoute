@@ -1,10 +1,10 @@
-# eduscheduler/gui/ui/main_window_ui.py
+# courseroute/gui/ui/main_window_ui.py
 
 from PyQt5 import QtCore, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setWindowTitle("EduScheduler")
+        MainWindow.setWindowTitle("CourseRoute")
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.runIlpButton = QtWidgets.QPushButton(self.centralwidget)
