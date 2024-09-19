@@ -2,7 +2,7 @@
 
 import sys
 from PyQt5.QtWidgets import QApplication
-from eduscheduler.gui.main_window import MainWindow
+from courseroute.gui.main_window import MainWindow
 
 def main():
     app = QApplication(sys.argv)
