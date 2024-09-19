@@ -1,4 +1,4 @@
-# eduscheduler/integrations/powerschool_api.py
+# courseroute/integrations/powerschool_api.py
 
 import requests
 
