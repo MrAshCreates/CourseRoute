@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# macOS files
+.DS_Store
+
+# Database files
+*.sqlite3
+
+# Config files
+config.ini
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Logs
+logs/
