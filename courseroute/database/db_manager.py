@@ -1,10 +1,12 @@
 # courseroute/database/db_manager.py
 
+# eduscheduler/database/db_manager.py
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from configparser import ConfigParser
 
-from courseroute.database.models import Base
+from eduscheduler.database.models import Base
 
 def get_config(filename='config.ini', section='database'):
     parser = ConfigParser()
