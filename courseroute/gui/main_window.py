@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.session = create_session()
-
+        
         # Connect menu actions
         self.ui.actionExit.triggered.connect(self.close)
         self.ui.actionImport_Data.triggered.connect(self.import_data)
@@ -21,7 +21,7 @@ class MainWindow(QMainWindow):
 
         # Connect buttons
         self.ui.runSchedulerButton.clicked.connect(self.run_scheduler)
-
+        self.ui.addStudentButton.clicked.connect(self.open_add_student_form)
         # Initialize data views
         self.load_data_views()
 
@@ -75,3 +75,13 @@ class MainWindow(QMainWindow):
         if file_name:
             # Write the schedule to the CSV file
             pass
+            
+    def open_add_student_form(self):
+        from courseroute.gui.student_form import StudentForm
+        dialog = StudentForm(self)
+        if dialog.exec_():
+            self.load_students()
+
+    def load_students(self):
+        # Load student data into the student table
+        pass
