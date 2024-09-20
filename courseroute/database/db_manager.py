@@ -1,3 +1,5 @@
+# courseroute/database/db_manager.py
+
 # eduscheduler/database/db_manager.py
 
 from sqlalchemy import create_engine

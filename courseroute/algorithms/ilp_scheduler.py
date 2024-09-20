@@ -1,7 +1,7 @@
-# eduscheduler/algorithms/ilp_scheduler.py
+# courseroute/algorithms/ilp_scheduler.py
 
 import pulp
-from eduscheduler.database.models import Student, CourseSection, TimeSlot, Teacher
+from courseroute.database.models import Student, CourseSection, TimeSlot, Teacher
 from sqlalchemy.orm import Session
 
 def generate_schedule_ilp(session: Session):

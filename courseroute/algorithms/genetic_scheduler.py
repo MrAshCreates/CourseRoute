@@ -1,8 +1,8 @@
-# eduscheduler/algorithms/genetic_scheduler.py
+# courseroute/algorithms/genetic_scheduler.py
 
 import numpy as np
 import pygad
-from eduscheduler.database.models import Student, CourseSection
+from courseroute.database.models import Student, CourseSection
 from sqlalchemy.orm import Session
 
 def generate_schedule_genetic(session: Session):
