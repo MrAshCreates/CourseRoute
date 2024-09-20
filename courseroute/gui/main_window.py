@@ -1,7 +1,5 @@
 # courseroute/gui/main_window.py
 
-# courseroute/gui/main_window.py
-
 from PyQt5.QtWidgets import QMainWindow, QMessageBox, QFileDialog
 from PyQt5.QtCore import pyqtSlot
 from courseroute.gui.ui.main_window_ui import Ui_MainWindow
