@@ -30,7 +30,7 @@ CourseRoute is cross-platform desktop app built with Python and PyQt, automating
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/EduScheduler.git
+git clone https://github.com/MrAshCreates/EduScheduler.git
 cd EduScheduler
 
 2. Set Up a Virtual Environment
